@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>practice page</title>
+  <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+  <style type="text/css">
+    body{
+  font-family: 'McLaren', cursive;
+}
+.navbar a{
+  padding: 14px 16px;
+  background-color: darkgrey;
+  margin-top: 20px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+}
+.content{ 
+  text-align: left;
+  padding-top: 100px;
+  margin-left: 380px;
+  margin-right: 380px; 
+}
+.heading{
+  font-size: 3rem;
+}
+.second-heading{
+  font-size: 2rem;
+}
+p{
+  font-size: 1.5rem;
+}
+
+img{
+  padding: 10px 15px;
+  width: 95%;
+}
+
+  #openform{
+  font-size: 18px;
+  padding: 14px 16px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+  opacity: 0.9; 
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+}
+.insidechat{
+  display: none;
+  float: right;
+  padding: 40px 60px;
+  background-color: lightgrey;
+  position: fixed;
+  bottom: 23px;
+  right: 20px;
+}
+textarea{
+  padding: 14px 16px;
+  width: 100%;
+  height: 30px;
+}
+.send, .cancel{
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
+.send{
+  background-color: tomato;
+  opacity: 0.9;
+}
+.cancel{
+  background-color: green;
+  opacity: 0.9;
+  margin-top: 5px;
+}
+
+#openform:hover, .send:hover,.cancel:hover, .navbar a:hover{
+  opacity: 1;
+}
+#thanks{
+  display: none;
+  float: right;
+  padding: 40px 60px;
+  background-color: lightgrey;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+}
+@media (max-width: 1200px){
+  .navbar{ display: block; float: none;}
+  .navbar a{ display: block; float: none; font-size: 9px; }
+  .content h1{ font-size: 1.5rem; padding-top: 60px; }
+  .content h2{font-size: 1rem;}
+  .content p{ font-size: 0.8rem; }
+  .content{ margin: 0px 0px; }
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+  </div>
+
+  <div class="content">
+    <h1 class="heading">Some Projects to Practice HTML & CSS skills for beginners</h1>
+    <p>Its always exciting the first time you try learning a new skill. Especially coding.</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3K4KVvx7DFHPaqbZXXMgMG4cUNyQM2IpBW5VyLnZtfiwNsu_W">
+    <p>However, if you have no practice, you forget most of what you learn. Therefore, at some point you realize that you need to practice what you have learnt. Otherwise you’ll forget all of it.</p>
+    <p>That’s where projects come in. Projects are a good way to practice what you have learnt. And trust me you want to work on some projects. You can use the projects to showcase what you have worked on.</p>
+    <img src="https://miro.medium.com/max/640/1*bqSyV0r9qrxJYpjYG3fC8Q.jpeg">
+    <p>As a newbie, choosing projects that match your current knowledge level can be daunting. You might choose a project. Then the project becomes too big to be accomplished with your currently know-how. At least, that’s what I have gone through on this learning journey.</p>
+    <p>I have created some projects that I have found that are appropriate even <strong>if your knowledge is limited to HTML and CSS only.</strong> These projects are available in popular learning websites where you will find additional information on what you will be tackling.</p>
+
+    <h2 class="second-heading">7 Projects to try out even if you just know HTML and CSS</h2>
+    <p class="ol">1.Simple page</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRow8ZTgtFor3UiVDZL4rs3sNqb8WLUxRBPxAAWf-bpxafHFWwK">
+    <p>...</p>
+    <p class="ol">2.Tribute Page</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ01LkHqpNwLhEVyp6fhsJS7dmvKbSq0GbJIlteweJHop4uSgVR">
+    <p>Write a tribute of someone you admire and publish as a webpage.This project will involve working with adding image, links, lists and paragraphs. This project will require knowledge of HTML to create. However, you can use a bit of CSS to make the project look better.</p>
+    <p class="ol">3.Simple Form</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSeRfi0kaczLW-Kq6tmsE893U5i9tzdaqv5hRf6qdqP_ul8I8Jw">
+    <p>Forms are useful in collecting data online. This Project will mainly be testing your skills on all kinds of inputs. This will test your knowledge of forms and structuring your webpage.The form is not required to send any data.</p>
+    <p>Its a build up from the tribute page. This project will require knowledge of html/html5 to create.</p>
+    <p class="ol">4.Advertisement Form</p>    
+    <img src="https://miro.medium.com/max/1208/1*g8dDwsaMDBAUXG-VOErkjw.png">
+    <p>This will test your knowledge of both HTML and CSS. You will be required to practice creating columns and aligning items within the columns. You will also need to do basic editing of images e.g. cropping and resizing to make perfect images for your web page.</p>
+    <p><strong>You will need solid knowledge of HTML/CSS.</strong></p>
+    <p class="ol">5.Login Page</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRVOxGLxRn3V53oMb2bzj0KtDR_0y55Xf8esJRyBQPzGNiYBWQN">
+    <p>...</p>
+    <p class="ol">6.Table page</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4UuiJSBgGRLb3-3tf8mk4fCmw4hyLISQvceISu7hEn1Id3tcY">
+    <p>...</p>
+    <p class="ol">7.Build a Technical Documentation page</p>
+    <img src="https://miro.medium.com/max/1279/1*rpNd7twmOd38L08iNRflPA.png">
+    <p>This will require some knowledge of HTML CSS and bootstrap or JavaScript. The basic idea is: when you click on any topic on the left, it loads that content on the right.</p>
+    <p>Also,make the page should look somewhat but the functionality should not be a concern right now.</p>
+  </div>
+
+  <button id="openform" onclick="openform()">Chat Here</button>
+
+  <div class="insidechat" id="chatbox">
+    <h3>Chat Box</h3>
+    <label for="textarea">send message:</label>
+    <textarea name="textarea" placeholder="type here..."></textarea>
+    <button class="send" onclick="openthanks()">Send</button>
+    <button class="cancel" onclick="closeform()">Close</button>
+  </div>
+
+  <div id="thanks">
+    <h1>Your message is send..</h1>
+    <p>our expert will reply you soon, stay tuned</p>
+    <button id="closethanks" onclick="closethanks()">Close</button>
+  </div>
+  
+  <script type="text/javascript">
+    function openform(){
+      document.getElementById('chatbox').style.display='block';
+    }
+    function closeform(){
+      document.getElementById('chatbox').style.display='none';
+    }
+    function openthanks(){
+      document.getElementById('thanks').style.display='block';
+      document.getElementById('chatbox').style.display='none';
+    }
+    function closethanks(){
+      document.getElementById('thanks').style.display='none';
+    }
+  </script>
+
+
+</body>
+</html>
